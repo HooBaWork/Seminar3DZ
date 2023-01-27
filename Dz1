@@ -1,0 +1,19 @@
+Console.Clear();
+Console.WriteLine("Введите пятизначное число-палиндром");
+int number = int.Parse(Console.ReadLine()!);
+int number1 = number;
+int number2 = 0;
+while (number / 1 != 0) 
+{
+    number2 *=10;
+    number2 += number % 10;
+    number /=10;
+}
+if (number1==number2)
+{
+    Console.WriteLine("Данное число является палиндромом");
+}
+else 
+{
+    Console.WriteLine("Данное число не  является палиндромом");
+}
