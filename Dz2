@@ -1,5 +1,5 @@
 
-
+Console.Clear();
 Console.WriteLine("Введите коордианты точек в пронстранстве");
 Console.Write("Введите координаты первой точки X1: ");
 double NumberX1 = Convert.ToDouble(Console.ReadLine());
