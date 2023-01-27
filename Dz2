@@ -1,1 +1,17 @@
 
+
+Console.WriteLine("Введите коордианты точек в пронстранстве");
+Console.Write("Введите координаты первой точки X1: ");
+double NumberX1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите координаты первой точки Y1: ");
+double NumberY1= Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите координаты первой точки Z1: ");
+double NumberZ1  = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите координаты второй точки X2: ");
+double NumberX2 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите координаты второй точки Y2: ");
+double NumberY2  = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите координаты второй точки Z2: ");
+double NumberZ2 = Convert.ToDouble(Console.ReadLine());
+double distance = Math.Sqrt(Math.Pow(NumberX2 - NumberX1, 2) + Math.Pow(NumberY2 - NumberY1, 2) + Math.Pow(NumberZ2 - NumberZ1, 2));
+Console.WriteLine($"Расстояние между двумя точками в пространстве равно {distance}");
